@@ -1,0 +1,19 @@
+body{
+    display: grid;
+    justify-content: center;
+    text-align: center;
+    font-family: 'Rubik', Arial, Helvetica, sans-serif, Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+.size, .drink, .sugar, .top{
+    border: 1px solid rgb(68, 78, 143);
+    border-radius: 5px;
+    margin-top: 20px;
+}
+img{
+    margin: auto;
+    height: 300px;
+    width: 300px;
+}
+.note{
+    margin-top: 10px;
+}

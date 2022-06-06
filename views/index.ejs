@@ -1,0 +1,106 @@
+<!doctype html>
+<html>
+
+<head>
+        <title>HaydenBucks</title>
+        <script src="https://kit.fontawesome.com/d60e865119.js" crossorigin="anonymous"></script>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="main.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link href="https://fonts.googleapis.com/css2?family=Rubik:wght@400;600;700&display=swap" rel="stylesheet">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+</head>
+
+<body>
+        <a href="/"><img src="logo.gif" alt=""></a>
+        <a href="/signup"><button>Sign up</button></a>
+        <a href="/login"><button>Login</button></a>
+
+        <section class="container">
+
+
+                <form action="/coffeeOrderForm" method="POST">
+                        <section>
+                                <h3>Customer's Name</h3>
+                                <input type="text" class="info name" name="name" placeholder="Their Name">
+                        </section>
+                        <section class="size">
+                                <h3>Size</h3>
+                                <label for="size">Small</label>
+                                <input required type="radio" class="info size" name="size" value="Tall">
+                                <label for="size">Regular</label>
+                                <input type="radio" class="info size" name="size" value="Grande">
+                                <label for="size">Large</label>
+                                <input type="radio" class="info size" name="size" value="Venti">
+                        </section>
+                        <section class="drink">
+                                <h3>Beverage</h3>
+                                <label for="beverage">Brown Sugar Milk Tea</label>
+                                <input required type="radio" class="info beverage" name="beverage"
+                                        value="Brown Sugar Milk Tea">
+                                <label for="beverage">Taro Milk Tea</label>
+                                <input type="radio" class="info beverage" name="beverage" value="Taro Milk Tea">
+                                <label for="beverage">Thai Milk Tea</label>
+                                <input type="radio" class="info beverage" name="beverage" value="Thai Milk Tea">
+                                <label for="beverage">Romeo</label>
+                                <input type="radio" class="info beverage" name="beverage" value="Romeo">
+                                <label for="beverage">DragonFruit Green Tea</label>
+                                <input type="radio" class="info beverage" name="beverage" value="DragonFruit Green Tea">
+                        </section>
+                        <section class="sugar">
+                                <h4>Sugar Level</h4>
+                                <label>
+                                        Low
+                                        <input required type="radio" name="sugarLvl" value="Low">
+                                </label>
+                                <label>
+                                        Regular
+                                        <input type="radio" name="sugarLvl" value="Regular">
+                                </label>
+                                <label>
+                                        Extra
+                                        <input type="radio" name="sugarLvl" value="Extra">
+                                </label>
+                        </section>
+                        <section class="top">
+                                <h4>Toppings</h4>
+                                <label>
+                                        Honey Boba
+                                        <input required type="radio" name="toppings" value="Honey Boba">
+                                </label>
+                                <label>
+                                        Lychee
+                                        <input type="radio" name="toppings" value="Lychee">
+                                </label>
+                                <label>
+                                        Peach Popping Pearls
+                                        <input type="radio" name="toppings" value="Peach Popping Pearls">
+                                </label>
+                                <label>
+                                        Mango Popping Pearls
+                                        <input type="radio" name="toppings" value="Mango Popping Pearls">
+                                </label>
+                                <label>
+                                        Aloe Vera
+                                        <input type="radio" name="toppings" value="Aloe Vera">
+                                </label>
+                                <label>
+                                        Crystal Boba
+                                        <input type="radio" name="toppings" value="Crystal Boba">
+                                </label>
+                        </section>
+                        <section class="note">
+                                <label for="note">Note</label>
+                                <input type="text" class="info note" name="note" placeholder="Note">
+                        </section>
+                        <button type="submit">Submit</button>
+                </form>
+        
+
+        </section>
+
+        <script src="main.js"></script>
+
+</body>
+
+</html>

@@ -1,0 +1,23 @@
+body{
+    display: grid;
+    justify-content: center;
+    text-align: center;
+    font-family: 'Rubik', Arial, Helvetica, sans-serif, Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 1.5em;
+    color: black;
+}
+section{
+    border: 1px solid rgb(68, 78, 143);
+    border-radius: 5px;
+    margin-top: 20px;
+    height: 400px;
+    box-shadow: 2px 2px;
+}
+img{
+    margin: auto;
+    height: 300px;
+    width: 300px;
+}
+input{
+    margin-top: 100px;
+}
